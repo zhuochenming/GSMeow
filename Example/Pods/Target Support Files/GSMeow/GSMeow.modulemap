@@ -1,0 +1,6 @@
+framework module GSMeow {
+  umbrella header "GSMeow-umbrella.h"
+
+  export *
+  module * { export * }
+}
