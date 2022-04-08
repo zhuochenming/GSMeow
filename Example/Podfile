@@ -3,15 +3,15 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'GSMeow_Example' do
-  pod 'GSMeow', :path => '../'
-
-  target 'GSMeow_Tests' do
-    inherit! :search_paths
+#  pod 'GSMeow', :path => '../'
+#
+#  target 'GSMeow_Tests' do
+#    inherit! :search_paths
 
     pod 'AFNetworking', '~> 2.3'
-    #pod 'Specta'
+    pod 'Specta'
     #pod 'Expecta'
     #pod 'FBSnapshotTestCase'
     #pod 'Expecta+Snapshots'
-  end
+#  end
 end
