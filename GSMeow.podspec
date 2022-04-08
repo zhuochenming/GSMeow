@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Example/Pods/*'
+  s.source_files = 'Example/Pods/**'
   
   # s.resource_bundles = {
   #   'GSMeow' => ['GSMeow/Assets/*.png']
