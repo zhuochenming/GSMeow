@@ -1,6 +1,6 @@
 {
   "name": "GSMeow",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "GSMeow测试",
   "description": "尝试建立GSMeow私有库，似乎要成功",
   "homepage": "https://baidu.com",
@@ -13,19 +13,16 @@
   },
   "source": {
     "git": "https://github.com/zhuochenming/GSMeow.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "GSMeow/Classes/**/*",
+  "source_files": "Example/Pods/*",
   "static_framework": true,
   "dependencies": {
     "AFNetworking": [
       "~> 2.3"
-    ],
-    "AMapSearch": [
-      "8.1.0"
     ]
   }
 }

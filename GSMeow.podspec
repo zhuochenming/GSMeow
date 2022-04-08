@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GSMeow'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'GSMeow测试'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'GSMeow/Classes/**/*'
+  s.source_files = 'Example/Pods/*'
   
   # s.resource_bundles = {
   #   'GSMeow' => ['GSMeow/Assets/*.png']
@@ -40,5 +40,5 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   s.static_framework = true
   s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'AMapSearch','8.1.0'
+  # s.dependency 'AMapSearch','8.1.0'
 end

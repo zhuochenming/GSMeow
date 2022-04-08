@@ -20,9 +20,6 @@ PODS:
   - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - AMapFoundation (1.6.9)
-  - AMapSearch (8.1.0):
-    - AMapFoundation (~> 1.6.9)
   - Expecta (1.0.6)
   - "Expecta+Snapshots (3.1.1)":
     - Expecta (~> 1.0)
@@ -33,9 +30,8 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - GSMeow (0.2.0):
+  - GSMeow (0.3.0):
     - AFNetworking (~> 2.3)
-    - AMapSearch (= 8.1.0)
   - Specta (1.0.7)
 
 DEPENDENCIES:
@@ -48,8 +44,6 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
-    - AMapFoundation
-    - AMapSearch
     - Expecta
     - "Expecta+Snapshots"
     - FBSnapshotTestCase
@@ -61,12 +55,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  AMapFoundation: 8d8ecbb0b2e9ce5487995360d26c885d94642bfd
-  AMapSearch: 5c1cc07429f04b9cc76438fcb2411c66fdbbb178
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GSMeow: 693e274d99b94c2b48cbff543aa9b8d7f5025621
+  GSMeow: 641ce338baefc11164c3cfae8298da10e3058f14
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
 PODFILE CHECKSUM: 94419cfcf726bdb3936fbfb0f1a97984b5e4cfd8
