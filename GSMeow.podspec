@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GSMeow'
-  s.version          = '0.5.0'
+  s.version          = '0.5.1'
   s.summary          = 'GSMeow测试'
 
 # This description is used to generate tags and improve search results.
@@ -39,6 +39,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.static_framework = true
-  s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'AFNetworking', '~> 2.3'
   # s.dependency 'AMapSearch','8.1.0'
 end
