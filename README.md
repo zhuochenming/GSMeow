@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'GSMeow'
 ```
 
-## Author
-
-zhuochenming, 294503386@qq.com
-
 ## License
 
 GSMeow is available under the MIT license. See the LICENSE file for more info.
